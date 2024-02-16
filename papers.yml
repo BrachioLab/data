@@ -3,7 +3,7 @@
   - title: 'Evaluating Groups of Features via Consistency, Contiguity, and Stability'
     link: https://openreview.net/forum?id=IP2etbIEuC
     authors: Chaehyeon Kim, Weiqiu You, Shreya Havaldar, Eric Wong
-    conference: International Conference on Learning Representations, Tiny Papers Track (ICLR), 2024
+    conference: International Conference on Learning Representations(ICLR), 2024 Tiny Papers Track 
     short: ICLR 2024, Tiny Papers Track
     blog: 
     github: 
@@ -86,7 +86,7 @@
   - title: 'TopEx: Topic-based Explanations for Model Comparison'
     link: https://arxiv.org/abs/2306.00976
     authors: Shreya Havaldar, Adam Stein, Eric Wong, Lyle Ungar
-    conference: International Conference on Learning Representations, Tiny Papers Track (ICLR), 2023
+    conference: International Conference on Learning Representations (ICLR), 2023 Tiny Papers Track 
     short: ICLR 2023, Tiny Papers Track
     blog: 
     github: 
