@@ -136,3 +136,145 @@
     blog: https://debugml.github.io/fcot/
     github: https://github.com/veronica320/Faithful-COT
     external: false
+
+- year: 2022
+  papers: 
+  - title: A data-based perspective on transfer learning
+    link: https://arxiv.org/abs/2207.05739
+    authors: Saachi Jain*, Hadi Salman*, Alaa Khaddaj*, Eric Wong, Sung Min Park, Aleksander Madry
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023  
+    blog: https://gradientscience.org/data-transfer/
+    github: https://github.com/MadryLab/data-transfer
+    external: true
+
+  - title: When does bias transfer in transfer learning
+    link: https://arxiv.org/abs/2207.02842
+    authors: Hadi Salman*, Saachi Jain*, Andrew Ilyas*, Logan Engstrom*, Eric Wong, Aleksander Madry 
+    conference: 
+    blog: https://gradientscience.org/bias-transfer/
+    github: https://github.com/MadryLab/bias-transfer
+    external: true
+
+  - title: Missingness bias in model debugging
+    link: https://arxiv.org/abs/2204.08945
+    authors: Saachi Jain*, Hadi Salman*, Pengchuan Zhang, Vibhav Vineet, Sal Vemprala, Aleksander Madry  
+    conference: International Conference on Learning Representations (ICLR), 2022  
+    blog: https://gradientscience.org/missingness/
+    github: https://github.com/MadryLab/missingness
+    external: true
+
+- year: 2021
+  papers: 
+  - title: Certified patch robustness via smoothed vision transformers
+    link: https://arxiv.org/abs/2110.07719
+    authors: Hadi Salman*, Saachi Jain*, Eric Wong*, Aleksander Madry 
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022  
+    blog: https://gradientscience.org/smoothing/
+    github: https://github.com/MadryLab/smoothed-vit
+    external: true
+
+  - title: "DeepSplit: Scalable verification of deep neural networks via operator splitting"
+    link: https://arxiv.org/abs/2106.09117
+    authors: Shaoru Chen*, Eric Wong*, J. Zico Kolter, Mahyar Fazlyab  
+    conference: IEEE Open Journal of Control Systems (OJCS), 2022  
+    blog: 
+    github: 
+    external: true
+
+  - title: Leveraging Sparse Linear Layers for Debuggable Deep Networks
+    link: https://arxiv.org/abs/2105.04857
+    authors: Eric Wong*, Shibani Santurkar*, Aleksander Madry  
+    conference: International Conference on Machine learning (ICML), 2021 *Long Oral*  
+    blog: https://gradientscience.org/glm_saga/
+    github: https://github.com/madrylab/debuggabledeepnetworks
+    external: true
+
+- year: 2020
+  papers: 
+  - title: Learning perturbation sets for robust machine learning
+    link: https://arxiv.org/abs/2007.08450
+    authors: Eric Wong, J. Zico Kolter 
+    conference: International Conference on Learning Representations (ICLR), 2021  
+    blog: https://locuslab.github.io/2020-07-20-perturbation/
+    github: https://github.com/locuslab/perturbation_learning/
+    external: true
+
+  - title: Overfitting in adversarially robust deep learning 
+    link: https://arxiv.org/abs/2002.11569
+    authors: Leslie Rice*, Eric Wong*, J. Zico Kolter 
+    conference: International Conference on Machine learning (ICML), 2020  
+    blog: 
+    github: https://github.com/locuslab/robust_overfitting/ 
+    external: true
+
+  - title: Neural network virtual sensors for fuel injection quantities with provable performance specifications
+    link: http://arxiv.org/abs/2007.00147
+    authors: Eric Wong, Tim Schneider, Joerg Schmitt, Frank R. Schmidt, J. Zico Kolter  
+    conference: IEEE Intelligent Vehicles Syimposium (IV), 2020
+    blog: 
+    github: 
+    external: true
+
+  - title: "Fast is better than free: revisiting adversarial training"
+    link: https://arxiv.org/abs/2001.03994
+    authors: Eric Wong*, Leslie Rice*, J. Zico Kolter  
+    conference: International Conference on Learning Representations (ICLR), 2020
+    blog: 
+    github: 
+    external: true
+
+- year: 2019
+  papers: 
+  - title: Adversarial robustness against the union of multiple perturbation models
+    link: https://arxiv.org/abs/1909.04068
+    authors: Pratyush Maini, Eric Wong, J. Zico Kolter  
+    conference: International Conference on Machine learning (ICML), 2020  
+    blog: 
+    github: https://github.com/locuslab/robust_union/
+    external: true
+
+  - title: Wasserstein adversarial examples
+    link: https://arxiv.org/abs/1902.07906
+    authors: Eric Wong, Frank R. Schmidt, J. Zico Kolter  
+    conference: International Conference on Machine Learning (ICML), 2019  
+    blog: 
+    github: 
+    external: true
+
+- year: 2018
+  papers: 
+  - title: Scaling provable adversarial defenses
+    link: https://arxiv.org/abs/1805.12514
+    authors: Eric Wong, Frank R. Schmidt, Jan Hendrik Metzen, J. Zico Kolter  
+    conference: In Neural Information Processing Systems (NeurIPS), 2018  
+    blog: 
+    github: https://github.com/locuslab/convex_adversarial/
+    external: true
+
+- year: 2017
+  papers: 
+  - title: Provable defenses against adversarial examples via the convex outer adversarial polytope
+    link: https://arxiv.org/abs/1711.00851
+    authors: Eric Wong, J. Zico Kolter  
+    conference: "International Conference on Machine Learning (ICML), 2018; Best defense paper at [NIPS 2017 ML &amp; Security Workshop](https://machine-learning-and-security.github.io/)"
+    blog: https://locuslab.github.io/2019-03-12-provable/
+    github: https://github.com/locuslab/convex_adversarial/
+    external: true
+
+  - title: A Semismooth Newton Method for Fast, Generic Convex Programming
+    link: https://arxiv.org/abs/1705.00772
+    authors: Alnur Ali*, Eric Wong*, J. Zico Kolter  
+    conference: International Conference on Machine Learning (ICML), 2017  
+    blog: 
+    github: https://github.com/locuslab/newton_admm/
+    external: true
+
+- year: 2015
+  papers: 
+  - title: An SVD and Derivative Kernel Approach to Learning from Geometric Data
+    link: http://zicokolter.com/publications/wong2015svdkernel.pdf
+    authors: Eric Wong, J. Zico Kolter  
+    conference: Conference on Artificial Intelligence (AAAI), 2015
+    blog: 
+    github: 
+    external: true
