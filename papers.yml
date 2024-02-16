@@ -1,5 +1,43 @@
+- year: 2024
+  papers: 
+  - title: 'Evaluating Groups of Features via Consistency, Contiguity, and Stability'
+    link: https://openreview.net/forum?id=IP2etbIEuC
+    authors: Chaehyeon Kim, Weiqiu You, Shreya Havaldar, Eric Wong
+    conference: ICLR 2024, Tiny Papers Track
+    short: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation'
+    link: https://arxiv.org/abs/2310.12508
+    authors: Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu
+    conference: ICLR 2024
+    short: 
+    blog: 
+    github: https://github.com/OPTML-Group/Unlearn-Saliency
+    external: true
+
 - year: 2023
   papers: 
+  - title: 'Initialization Matters for Adversarial Transfer Learning'
+    link: https://arxiv.org/abs/2312.05716
+    authors: Andong Hua, Jindong Gu, Zhiyu Xue, Nicholas Carlini, Eric Wong, Yao Qin
+    conference: 
+    short: 
+    blog: 
+    github: 
+    external: true
+
+  - title: 'Comparing Styles across Languages'
+    link: https://arxiv.org/abs/2310.07135
+    authors: Shreya Havaldar, Matthew Pressimone, Eric Wong, Lyle Ungar
+    conference: EMNLP 2023
+    short: 
+    blog: 
+    github: 
+    external: false
+
   - title: 'Sum-of-Parts Models: Faithful Attributions for Groups of Features'
     link: https://arxiv.org/abs/2310.16316
     authors: Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
@@ -7,6 +45,7 @@
     short: 
     blog: https://debugml.github.io/sum-of-parts/
     github: https://github.com/DebugML/sop
+    external: false
 
   - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
     link: https://arxiv.org/abs/2310.08419
@@ -15,6 +54,7 @@
     short: 
     blog: https://jailbreaking-llms.github.io/
     github: https://github.com/patrickrchao/JailbreakingLLMs
+    external: false
     
   - title: 'SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks'
     link: https://arxiv.org/abs/2310.03684
@@ -23,14 +63,16 @@
     short: 
     blog: https://debugml.github.io/smooth-llm/
     github: https://github.com/arobey1/smooth-llm
+    external: false
     
-  - title: 'MDB: Interactively Querying Datasets and Models'
+  - title: 'TorchQL: A Programming Framework for Integrity Constraints in Machine Learning'
     link: https://arxiv.org/abs/2308.06686
     authors: Aaditya Naik, Adam Stein, Yinjun Wu, Eric Wong, Mayur Naik
-    conference: 
+    conference: OOPSLA 2024
     short: 
     blog: 
-    github: 
+    github: https://github.com/TorchQL/torchql
+    external: false
   
   - title: Stability Guarantees for Feature Attributions with Multiplicative Smoothing
     link: https://arxiv.org/abs/2307.05902
@@ -39,6 +81,7 @@
     short: NeurIPS 2023
     blog: https://debugml.github.io/multiplicative-smoothing/
     github: https://github.com/DebugML/mus
+    external: false
 
   - title: 'TopEx: Topic-based Explanations for Model Comparison'
     link: https://arxiv.org/abs/2306.00976
@@ -47,6 +90,7 @@
     short: ICLR 2023, Tiny Papers Track
     blog: 
     github: 
+    external: false
 
   - title: Rectifying Group Irregularities in Explanations for Distribution Shift
     link: https://arxiv.org/abs/2305.16308
@@ -55,6 +99,7 @@
     short: 
     blog: 
     github: 
+    external: false
 
   - title: Do Machine Learning Models Learn Statistical Rules Inferred from Data?
     link: https://arxiv.org/abs/2303.01433
@@ -63,6 +108,7 @@
     short: ICML 2023
     blog: https://debugml.github.io/SQRL/
     github: https://github.com/DebugML/sqrl
+    external: false
 
   - title: In-context Example Selection with Influences
     link: https://arxiv.org/abs/2302.11042
@@ -71,6 +117,7 @@
     short: 
     blog: https://debugml.github.io/incontext-influences/
     github: https://github.com/DebugML/incontext_influences
+    external: false
 
   - title: Adversarial Prompting for Black Box Foundation Models
     link: https://arxiv.org/abs/2302.04237
@@ -79,6 +126,7 @@
     short: DLSP 2023 Keynote
     blog: https://debugml.github.io/adversarial-prompts/
     github: https://github.com/DebugML/adversarial_prompting
+    external: false
 
   - title: Faithful Chain-of-Thought Reasoning
     link: https://arxiv.org/abs/2301.13379
@@ -87,3 +135,4 @@
     conference: IJCNLP-AACL, 2023
     blog: https://debugml.github.io/fcot/
     github: https://github.com/veronica320/Faithful-COT
+    external: false
