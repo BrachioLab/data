@@ -3,8 +3,8 @@
   - title: 'Evaluating Groups of Features via Consistency, Contiguity, and Stability'
     link: https://openreview.net/forum?id=IP2etbIEuC
     authors: Chaehyeon Kim, Weiqiu You, Shreya Havaldar, Eric Wong
-    conference: ICLR 2024, Tiny Papers Track
-    short: 
+    conference: International Conference on Learning Representations, Tiny Papers Track (ICLR), 2024
+    short: ICLR 2024, Tiny Papers Track
     blog: 
     github: 
     external: false
@@ -12,8 +12,8 @@
   - title: 'SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation'
     link: https://arxiv.org/abs/2310.12508
     authors: Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu
-    conference: ICLR 2024
-    short: 
+    conference: International Conference on Learning Representations, 2024
+    short: ICLR 2024
     blog: 
     github: https://github.com/OPTML-Group/Unlearn-Saliency
     external: true
@@ -32,8 +32,8 @@
   - title: 'Comparing Styles across Languages'
     link: https://arxiv.org/abs/2310.07135
     authors: Shreya Havaldar, Matthew Pressimone, Eric Wong, Lyle Ungar
-    conference: EMNLP 2023
-    short: 
+    conference: Empirical Methods in Natural Language Processing (EMNLP), 2023
+    short: EMNLP 2023
     blog: 
     github: 
     external: false
@@ -68,8 +68,8 @@
   - title: 'TorchQL: A Programming Framework for Integrity Constraints in Machine Learning'
     link: https://arxiv.org/abs/2308.06686
     authors: Aaditya Naik, Adam Stein, Yinjun Wu, Eric Wong, Mayur Naik
-    conference: OOPSLA 2024
-    short: 
+    conference: Object-oriented Programming, Systems, Languages, and Applications (OOPSLA), 2024
+    short: OOPSLA 2024
     blog: 
     github: https://github.com/TorchQL/torchql
     external: false
