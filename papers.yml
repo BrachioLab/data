@@ -12,7 +12,7 @@
   - title: 'SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation'
     link: https://arxiv.org/abs/2310.12508
     authors: Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu
-    conference: International Conference on Learning Representations, 2024
+    conference: International Conference on Learning Representations (ICLR), 2024
     short: ICLR 2024
     blog: 
     github: https://github.com/OPTML-Group/Unlearn-Saliency
