@@ -1,7 +1,16 @@
 - year: 2024
   papers: 
+  - title: 'Defending Large Language Models against Jailbreak Attacks via Semantic Smoothing'
+    link: https://arxiv.org/abs/2402.16192
+    authors: Jiabao Ji, Bairu Hou, Alexander Robey, George J. Pappas, Hamed Hassani, Yang Zhang, Eric Wong, Shiyu Chang
+    conference: 
+    short: 
+    blog: 
+    github: 
+    external: true
+    
   - title: 'Evaluating Groups of Features via Consistency, Contiguity, and Stability'
-    link: https://openreview.net/forum?id=IP2etbIEuC
+    link: 
     authors: Chaehyeon Kim, Weiqiu You, Shreya Havaldar, Eric Wong
     conference: International Conference on Learning Representations (ICLR), 2024 Tiny Papers Track 
     short: ICLR 2024, Tiny Papers Track
@@ -23,8 +32,8 @@
   - title: 'Initialization Matters for Adversarial Transfer Learning'
     link: https://arxiv.org/abs/2312.05716
     authors: Andong Hua, Jindong Gu, Zhiyu Xue, Nicholas Carlini, Eric Wong, Yao Qin
-    conference: 
-    short: 
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024 
+    short: CVPR 2024
     blog: 
     github: 
     external: true
