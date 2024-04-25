@@ -1,5 +1,14 @@
 - year: 2024
   papers: 
+  - title: 'JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models'
+    link: https://arxiv.org/abs/2404.01318
+    authors: Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong
+    conference: 
+    short: 
+    blog: https://jailbreakbench.github.io/
+    github: https://github.com/JailbreakBench/jailbreakbench/
+    external: false
+
   - title: 'Defending Large Language Models against Jailbreak Attacks via Semantic Smoothing'
     link: https://arxiv.org/abs/2402.16192
     authors: Jiabao Ji, Bairu Hou, Alexander Robey, George J. Pappas, Hamed Hassani, Yang Zhang, Eric Wong, Shiyu Chang

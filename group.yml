@@ -28,3 +28,9 @@
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
+- name: Adam Stein
+  url: https://www.seas.upenn.edu/~steinad/
+  photo: /assets/img/portrait/adam.jpeg
+  coadvisor: Mayur Naik
+  coadvisor_url: https://www.cis.upenn.edu/~mhnaik/
+  role: "PhD Student"
