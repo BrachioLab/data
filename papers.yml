@@ -1,5 +1,23 @@
 - year: 2024
   papers: 
+  - title: 'Towards Compositionality in Concept Learning'
+    link: 
+    authors: Adam Stein, Aaditya Naik, Yinjun Wu, Mayur Naik, Eric Wong
+    conference: International Conference on Machine learning (ICML), 2024
+    short: ICML 2024
+    blog: 
+    github: 
+    external: false
+
+  - title: 'DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation'
+    link: 
+    authors: Yinjun Wu, Mayank Keoliya, Kan Chen, Neelay Velingker, Ziyang Li, Emily J Getzen, Qi Long, Mayur Naik, Ravi B Parikh, Eric Wong
+    conference: International Conference on Machine learning (ICML), 2024
+    short: ICML 2024
+    blog: 
+    github: 
+    external: false
+
   - title: 'JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models'
     link: https://arxiv.org/abs/2404.01318
     authors: Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong
