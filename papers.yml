@@ -1,5 +1,14 @@
 - year: 2024
   papers: 
+  - title: 'Data-Efficient Learning with Neural Programs'
+    link: 
+    authors: Alaia Solko-Breslin, Seewon Choi, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong
+    conference: 
+    short: 
+    blog: https://debugml.github.io/neural-programs/
+    github: https://github.com/alaiasolkobreslin/ISED/tree/v1.0.0
+    external: false
+
   - title: 'Towards Compositionality in Concept Learning'
     link: 
     authors: Adam Stein, Aaditya Naik, Yinjun Wu, Mayur Naik, Eric Wong
