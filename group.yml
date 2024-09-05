@@ -36,13 +36,13 @@
   role: "PhD Student"
 - name: Helen Jin
   url: https://helenjin.github.io/
-  photo: /assets/img/portrait/helen.jpeg
+  photo: /assets/img/portrait/helen.jpg
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
 - name: Cassandra Goldberg
   url: 
-  photo: /assets/img/portrait/casey.jpeg
+  photo: assets/img/logo.png
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
@@ -54,7 +54,7 @@
   role: "PhD Student"
 - name: Vitoria Guardieiro
   url: https://viguardieiro.github.io/
-  photo: /assets/img/portrait/vitoria.jpeg
+  photo: /assets/img/portrait/vitoria.png
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
