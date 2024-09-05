@@ -34,3 +34,27 @@
   coadvisor: Mayur Naik
   coadvisor_url: https://www.cis.upenn.edu/~mhnaik/
   role: "PhD Student"
+- name: Helen Jin
+  url: https://helenjin.github.io/
+  photo: /assets/img/portrait/helen.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- name: Cassandra Goldberg
+  url: 
+  photo: /assets/img/portrait/casey.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- name: Davis Brown
+  url: https://davisrbrown.com/
+  photo: /assets/img/portrait/davis.jpeg
+  coadvisor: Hamed Hassani
+  coadvisor_url: https://www.seas.upenn.edu/~hassani/
+  role: "PhD Student"
+- name: Vitoria Guardieiro
+  url: https://viguardieiro.github.io/
+  photo: /assets/img/portrait/vitoria.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"

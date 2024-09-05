@@ -1,7 +1,25 @@
 - year: 2024
   papers: 
+  - title: 'Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference'
+    link: https://arxiv.org/abs/2407.00075
+    authors: Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong
+    conference: 
+    short: 
+    blog: https://debugml.github.io/logicbreaks/
+    github: https://github.com/AntonXue/tf_logic
+    external: false
+
+  - title: 'Avoiding Copyright Infringement via Machine Unlearning'
+    link: https://arxiv.org/abs/2406.10952
+    authors: Guangyao Dou, Zheyuan Liu, Qing Lyu, Kaize Ding, Eric Wong
+    conference: 
+    short: 
+    blog: 
+    github: 
+    external: true
+
   - title: 'Data-Efficient Learning with Neural Programs'
-    link: 
+    link: https://arxiv.org/abs/2406.06246
     authors: Alaia Solko-Breslin, Seewon Choi, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong
     conference: 
     short: 
