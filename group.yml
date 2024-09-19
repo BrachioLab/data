@@ -40,9 +40,9 @@
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
-- name: Casey Goldberg
-  url: 
-  photo: assets/img/logo.png
+- name: Cassandra Goldberg
+  url: https://cassandra-goldberg.github.io/
+  photo: /assets/img/portrait/casey.jpeg
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
