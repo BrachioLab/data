@@ -5,6 +5,7 @@
     authors: Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A. Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong
     conference: 
     short: 
+    website: https://brachiolab.github.io/fix/
     blog: https://debugml.github.io/fix/
     github: https://github.com/BrachioLab/exlib/tree/main/fix
     external: false
@@ -59,7 +60,8 @@
     authors: Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong
     conference: 
     short: 
-    blog: https://jailbreakbench.github.io/
+    website: https://jailbreakbench.github.io/
+    blog: 
     github: https://github.com/JailbreakBench/jailbreakbench/
     external: false
 
