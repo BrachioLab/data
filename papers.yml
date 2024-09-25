@@ -1,5 +1,14 @@
 - year: 2024
   papers: 
+  - title: 'The FIX Benchmark: Extracting Features Interpretable to eXperts'
+    link: https://arxiv.org/abs/2407.00075
+    authors: Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A. Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong
+    conference: 
+    short: 
+    blog: https://debugml.github.io/fix/
+    github: https://github.com/BrachioLab/exlib/tree/main/fix
+    external: false
+
   - title: 'Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference'
     link: https://arxiv.org/abs/2407.00075
     authors: Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong
