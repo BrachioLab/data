@@ -19,6 +19,17 @@
     github: https://github.com/AntonXue/tf_logic
     external: false
 
+  - title: 'Crowd-sourced machine learning prediction of long COVID using data from the National COVID Cohort Collaborative'
+    link: https://www.sciencedirect.com/science/article/pii/S2352396424003694
+    authors: Bergquist et al.
+    conference: eBioMedicine
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: true
+
+
   - title: 'Avoiding Copyright Infringement via Machine Unlearning'
     link: https://arxiv.org/abs/2406.10952
     authors: Guangyao Dou, Zheyuan Liu, Qing Lyu, Kaize Ding, Eric Wong
