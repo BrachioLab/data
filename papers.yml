@@ -52,8 +52,8 @@
   - title: 'Data-Efficient Learning with Neural Programs'
     link: https://arxiv.org/abs/2406.06246
     authors: Alaia Solko-Breslin, Seewon Choi, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong
-    conference: 
-    short: 
+    conference: Neural Information Processing Systems (NeurIPS), 2024
+    short: NeurIPS 2024
     blog: https://debugml.github.io/neural-programs/
     github: https://github.com/alaiasolkobreslin/ISED/tree/v1.0.0
     external: false
