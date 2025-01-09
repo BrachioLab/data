@@ -145,8 +145,8 @@
   - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
     link: https://arxiv.org/abs/2310.08419
     authors: Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
-    conference: 
-    short: 
+    conference: 3rd IEEE Conference on Secure and Trustworthy Machine Learning, 2025
+    short: SaTML 2025
     blog: https://jailbreaking-llms.github.io/
     github: https://github.com/patrickrchao/JailbreakingLLMs
     external: false
