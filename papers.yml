@@ -24,11 +24,10 @@
     link: https://arxiv.org/abs/2407.00075
     authors: Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong
     conference: AdvML Workshop at NeurIPS 2024
-    short: AdvML at NeurIPS 2024
+    short: 
     blog: https://debugml.github.io/logicbreaks/
     github: https://github.com/AntonXue/tf_logic
     external: false
-    workshop: true
 
   - title: 'Crowd-sourced machine learning prediction of long COVID using data from the National COVID Cohort Collaborative'
     link: https://www.sciencedirect.com/science/article/pii/S2352396424003694
@@ -138,11 +137,10 @@
     link: https://arxiv.org/abs/2310.16316
     authors: Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
     conference: XAI in Action Workshop at NeurIPS 2022
-    short: XAIA at NeurIPS 2022
+    short: 
     blog: https://debugml.github.io/sum-of-parts/
     github: https://github.com/DebugML/sop
     external: false
-    workshop: true
 
   - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
     link: https://arxiv.org/abs/2310.08419
