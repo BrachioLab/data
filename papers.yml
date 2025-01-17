@@ -28,12 +28,13 @@
     blog: https://debugml.github.io/logicbreaks/
     github: https://github.com/AntonXue/tf_logic
     external: false
+    workshop: true
 
   - title: 'Crowd-sourced machine learning prediction of long COVID using data from the National COVID Cohort Collaborative'
     link: https://www.sciencedirect.com/science/article/pii/S2352396424003694
     authors: Timothy Bergquist, Johanna Loomba, Emily Pfaff, Fangfang Xia, Zixuan Zhao, Yitan Zhu, Elliot Mitchell, Biplab Bhattacharya, Gaurav Shetty, Tamanna Munia, Grant Delong, Adbul Tariq, Zachary Butzin-Dozier, Yunwen Ji, Haodong Li, Jeremy Coyle, Seraphina Shi, Rachael V. Philips, Andrew Mertens, Romain Pirracchio, Mark van der Laan, John M. Colford Jr., Alan Hubbard, Jifan Gao, Guanhua Chen, Neelay Velingker, Ziyang Li, Yinjun Wu, Adam Stein, Jiani Huang, Zongyu Dai, Qi Long, Mayur Naik, John Holmes, Danielle Mowery, Eric Wong, Ravi Parekh, Emily Getzen, Jake Hightower, Jennifer Blase
     conference: eBioMedicine
-    short: 
+    short: eBioMedicine
     website: 
     blog: 
     github: 
@@ -141,6 +142,7 @@
     blog: https://debugml.github.io/sum-of-parts/
     github: https://github.com/DebugML/sop
     external: false
+    workshop: true
 
   - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
     link: https://arxiv.org/abs/2310.08419
