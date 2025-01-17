@@ -23,7 +23,7 @@
   - title: 'Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference'
     link: https://arxiv.org/abs/2407.00075
     authors: Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong
-    conference: 
+    conference: AdvML at 2024
     short: 
     blog: https://debugml.github.io/logicbreaks/
     github: https://github.com/AntonXue/tf_logic
@@ -137,7 +137,7 @@
     link: https://arxiv.org/abs/2310.16316
     authors: Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
     conference: 
-    short: 
+    short: XAIA at NeurIPS 2022
     blog: https://debugml.github.io/sum-of-parts/
     github: https://github.com/DebugML/sop
     external: false
