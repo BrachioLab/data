@@ -81,16 +81,16 @@
     external: false
 
   - title: 'Towards Compositionality in Concept Learning'
-    link: 
+    link: https://arxiv.org/abs/2406.18534
     authors: Adam Stein, Aaditya Naik, Yinjun Wu, Mayur Naik, Eric Wong
     conference: International Conference on Machine learning (ICML), 2024
     short: ICML 2024
-    blog: 
-    github: 
+    blog: https://debugml.github.io/compositional-concepts/
+    github: https://github.com/adaminsky/compositional_concepts
     external: false
 
   - title: 'DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation'
-    link: 
+    link: https://arxiv.org/abs/2406.00611
     authors: Yinjun Wu, Mayank Keoliya, Kan Chen, Neelay Velingker, Ziyang Li, Emily J Getzen, Qi Long, Mayur Naik, Ravi B Parikh, Eric Wong
     conference: International Conference on Machine learning (ICML), 2024
     short: ICML 2024
