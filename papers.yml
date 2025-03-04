@@ -21,6 +21,7 @@
     external: false
 
 - year: 2024
+  papers: 
   - title: 'AR-Pro: Counterfactual Explanations for Anomaly Repair with Formal Properties'
     link: https://arxiv.org/abs/2410.24178
     authors: Xiayan Ji, Anton Xue, Eric Wong, Oleg Sokolsky, Insup Lee
