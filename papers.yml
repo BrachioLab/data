@@ -1,5 +1,26 @@
-- year: 2024
+- year: 2025
   papers: 
+  - title: 'Adaptively evaluating models with task elicitation'
+    link: https://davisrbrown.com/assets/task_elicitation_initial.pdf
+    authors: Davis Brown, Prithvi Balehannina, Helen Jin, Shreya Havaldar, Hamed Hassani, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'Neuro-Symbolic Programming in the Age of Foundation Models: Pitfalls and Opportunities'
+    link: https://nvelingker.github.io/res/papers/neurosymbolic_pitfalls_and_opportunities.pdf
+    authors: Adam Stein, Aaditya Naik, Neelay Velingker, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
+- year: 2024
   - title: 'AR-Pro: Counterfactual Explanations for Anomaly Repair with Formal Properties'
     link: https://arxiv.org/abs/2410.24178
     authors: Xiayan Ji, Anton Xue, Eric Wong, Oleg Sokolsky, Insup Lee
