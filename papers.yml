@@ -1,16 +1,131 @@
-- year: 2024
+- year: 2025
   papers: 
-  - title: 'Towards Compositionality in Concept Learning'
+  - title: 'The FIX Benchmark: Extracting Features Interpretable to eXperts'
+    link: https://arxiv.org/abs/2409.13684
+    authors: Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A. Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong
+    conference: Journal of Data-centric Machine Learning Research (DMLR), 2025
+    short: DMLR 2025
+    website: https://brachiolab.github.io/fix/
+    blog: https://debugml.github.io/fix/
+    github: https://github.com/BrachioLab/exlib/tree/main/fix
+    external: false
+
+  - title: 'Sum-of-Parts Models: Faithful Attributions for Groups of Features'
+    link: https://arxiv.org/abs/2310.16316
+    authors: Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
+    conference: International Conference on Machine learning (ICML), 2025
+    short: ICML 2025
+    blog: https://debugml.github.io/sum-of-parts/
+    github: https://github.com/DebugML/sop
+    external: false
+
+  - title: 'DOLPHIN: A Programmable Framework for Scalable Neurosymbolic Learning'
     link: 
-    authors: Adam Stein, Aaditya Naik, Yinjun Wu, Mayur Naik, Eric Wong
-    conference: International Conference on Machine learning (ICML), 2024
-    short: ICML 2024
+    authors: Aaditya Naik, Jason Liu, Claire Wang, Amish Sethi, Saikat Dutta, Mayur Naik, Eric Wong
+    conference: International Conference on Machine learning (ICML), 2025
+    short: ICML 2025
     blog: 
     github: 
     external: false
 
+  - title: 'Adaptively evaluating models with task elicitation'
+    link: https://davisrbrown.com/assets/task_elicitation_initial.pdf
+    authors: Davis Brown, Prithvi Balehannina, Helen Jin, Shreya Havaldar, Hamed Hassani, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'Neuro-Symbolic Programming in the Age of Foundation Models: Pitfalls and Opportunities'
+    link: https://nvelingker.github.io/res/papers/neurosymbolic_pitfalls_and_opportunities.pdf
+    authors: Adam Stein, Aaditya Naik, Neelay Velingker, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'Avoiding Copyright Infringement via Machine Unlearning'
+    link: https://arxiv.org/abs/2406.10952
+    authors: Guangyao Dou, Zheyuan Liu, Qing Lyu, Kaize Ding, Eric Wong
+    conference: Findings of the Association for Computational Linguistics (NAACL), 2025
+    short: NAACL-Findings 2025
+    blog: 
+    github: 
+    external: true
+
+  - title: 'Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference'
+    link: https://arxiv.org/abs/2407.00075
+    authors: Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong
+    conference: International Conference on Learning Representations (ICLR), 2025
+    short: ICLR 2025
+    blog: https://debugml.github.io/logicbreaks/
+    github: https://github.com/AntonXue/tf_logic
+    external: false
+    
+  - title: 'SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks'
+    link: https://arxiv.org/abs/2310.03684
+    authors: Alexander Robey, Eric Wong, Hamed Hassani, George J. Pappas
+    conference: Transactions on Machine Learning Research (TMLR), 2025
+    short: TMLR 2025
+    blog: https://debugml.github.io/smooth-llm/
+    github: https://github.com/arobey1/smooth-llm
+    external: false
+    
+  - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
+    link: https://arxiv.org/abs/2310.08419
+    authors: Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
+    conference: 3rd IEEE Conference on Secure and Trustworthy Machine Learning, 2025
+    short: SaTML 2025
+    blog: https://jailbreaking-llms.github.io/
+    github: https://github.com/patrickrchao/JailbreakingLLMs
+    external: false
+
+- year: 2024
+  papers: 
+  - title: 'AR-Pro: Counterfactual Explanations for Anomaly Repair with Formal Properties'
+    link: https://arxiv.org/abs/2410.24178
+    authors: Xiayan Ji, Anton Xue, Eric Wong, Oleg Sokolsky, Insup Lee
+    conference: Neural Information Processing Systems (NeurIPS), 2024
+    short: NeurIPS 2024
+    website: 
+    blog: 
+    github: https://github.com/xjiae/arpro
+    external: false
+
+  - title: 'Crowd-sourced machine learning prediction of long COVID using data from the National COVID Cohort Collaborative'
+    link: https://www.sciencedirect.com/science/article/pii/S2352396424003694
+    authors: Timothy Bergquist, Johanna Loomba, Emily Pfaff, Fangfang Xia, Zixuan Zhao, Yitan Zhu, Elliot Mitchell, Biplab Bhattacharya, Gaurav Shetty, Tamanna Munia, Grant Delong, Adbul Tariq, Zachary Butzin-Dozier, Yunwen Ji, Haodong Li, Jeremy Coyle, Seraphina Shi, Rachael V. Philips, Andrew Mertens, Romain Pirracchio, Mark van der Laan, John M. Colford Jr., Alan Hubbard, Jifan Gao, Guanhua Chen, Neelay Velingker, Ziyang Li, Yinjun Wu, Adam Stein, Jiani Huang, Zongyu Dai, Qi Long, Mayur Naik, John Holmes, Danielle Mowery, Eric Wong, Ravi Parekh, Emily Getzen, Jake Hightower, Jennifer Blase
+    conference: eBioMedicine
+    short: eBioMedicine
+    website: 
+    blog: 
+    github: 
+    external: true
+
+  - title: 'Data-Efficient Learning with Neural Programs'
+    link: https://arxiv.org/abs/2406.06246
+    authors: Alaia Solko-Breslin, Seewon Choi, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong
+    conference: Neural Information Processing Systems (NeurIPS), 2024
+    short: NeurIPS 2024
+    blog: https://debugml.github.io/neural-programs/
+    github: https://github.com/alaiasolkobreslin/ISED/tree/v1.0.0
+    external: false
+
+  - title: 'Towards Compositionality in Concept Learning'
+    link: https://arxiv.org/abs/2406.18534
+    authors: Adam Stein, Aaditya Naik, Yinjun Wu, Mayur Naik, Eric Wong
+    conference: International Conference on Machine learning (ICML), 2024
+    short: ICML 2024
+    blog: https://debugml.github.io/compositional-concepts/
+    github: https://github.com/adaminsky/compositional_concepts
+    external: false
+
   - title: 'DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation'
-    link: 
+    link: https://arxiv.org/abs/2406.00611
     authors: Yinjun Wu, Mayank Keoliya, Kan Chen, Neelay Velingker, Ziyang Li, Emily J Getzen, Qi Long, Mayur Naik, Ravi B Parikh, Eric Wong
     conference: International Conference on Machine learning (ICML), 2024
     short: ICML 2024
@@ -21,9 +136,10 @@
   - title: 'JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models'
     link: https://arxiv.org/abs/2404.01318
     authors: Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong
-    conference: 
-    short: 
-    blog: https://jailbreakbench.github.io/
+    conference: Neural Information Processing Systems (NeurIPS), 2024
+    short: NeurIPS 2024
+    website: https://jailbreakbench.github.io/
+    blog: 
     github: https://github.com/JailbreakBench/jailbreakbench/
     external: false
 
@@ -54,8 +170,6 @@
     github: https://github.com/OPTML-Group/Unlearn-Saliency
     external: true
 
-- year: 2023
-  papers: 
   - title: 'Initialization Matters for Adversarial Transfer Learning'
     link: https://arxiv.org/abs/2312.05716
     authors: Andong Hua, Jindong Gu, Zhiyu Xue, Nicholas Carlini, Eric Wong, Yao Qin
@@ -64,42 +178,6 @@
     blog: 
     github: 
     external: true
-
-  - title: 'Comparing Styles across Languages'
-    link: https://arxiv.org/abs/2310.07135
-    authors: Shreya Havaldar, Matthew Pressimone, Eric Wong, Lyle Ungar
-    conference: Empirical Methods in Natural Language Processing (EMNLP), 2023
-    short: EMNLP 2023
-    blog: 
-    github: 
-    external: false
-
-  - title: 'Sum-of-Parts Models: Faithful Attributions for Groups of Features'
-    link: https://arxiv.org/abs/2310.16316
-    authors: Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
-    conference: 
-    short: 
-    blog: https://debugml.github.io/sum-of-parts/
-    github: https://github.com/DebugML/sop
-    external: false
-
-  - title: 'Jailbreaking Black Box Large Language Models in Twenty Queries'
-    link: https://arxiv.org/abs/2310.08419
-    authors: Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
-    conference: 
-    short: 
-    blog: https://jailbreaking-llms.github.io/
-    github: https://github.com/patrickrchao/JailbreakingLLMs
-    external: false
-    
-  - title: 'SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks'
-    link: https://arxiv.org/abs/2310.03684
-    authors: Alexander Robey, Eric Wong, Hamed Hassani, George J. Pappas
-    conference: 
-    short: 
-    blog: https://debugml.github.io/smooth-llm/
-    github: https://github.com/arobey1/smooth-llm
-    external: false
     
   - title: 'TorchQL: A Programming Framework for Integrity Constraints in Machine Learning'
     link: https://arxiv.org/abs/2308.06686
@@ -108,6 +186,17 @@
     short: OOPSLA 2024
     blog: 
     github: https://github.com/TorchQL/torchql
+    external: false
+
+- year: 2023
+  papers: 
+  - title: 'Comparing Styles across Languages'
+    link: https://arxiv.org/abs/2310.07135
+    authors: Shreya Havaldar, Matthew Pressimone, Eric Wong, Lyle Ungar
+    conference: Empirical Methods in Natural Language Processing (EMNLP), 2023
+    short: EMNLP 2023
+    blog: 
+    github: 
     external: false
   
   - title: Stability Guarantees for Feature Attributions with Multiplicative Smoothing
@@ -173,8 +262,6 @@
     github: https://github.com/veronica320/Faithful-COT
     external: false
 
-- year: 2022
-  papers: 
   - title: A data-based perspective on transfer learning
     link: https://arxiv.org/abs/2207.05739
     authors: Saachi Jain*, Hadi Salman*, Alaa Khaddaj*, Eric Wong, Sung Min Park, Aleksander Madry
@@ -184,6 +271,8 @@
     github: https://github.com/MadryLab/data-transfer
     external: true
 
+- year: 2022
+  papers: 
   - title: When does bias transfer in transfer learning
     link: https://arxiv.org/abs/2207.02842
     authors: Hadi Salman*, Saachi Jain*, Andrew Ilyas*, Logan Engstrom*, Eric Wong, Aleksander Madry 
@@ -201,9 +290,7 @@
     blog: https://gradientscience.org/missingness/
     github: https://github.com/MadryLab/missingness
     external: true
-
-- year: 2021
-  papers: 
+    
   - title: Certified patch robustness via smoothed vision transformers
     link: https://arxiv.org/abs/2110.07719
     authors: Hadi Salman*, Saachi Jain*, Eric Wong*, Aleksander Madry 
@@ -212,7 +299,7 @@
     blog: https://gradientscience.org/smoothing/
     github: https://github.com/MadryLab/smoothed-vit
     external: true
-
+    
   - title: "DeepSplit: Scalable verification of deep neural networks via operator splitting"
     link: https://arxiv.org/abs/2106.09117
     authors: Shaoru Chen*, Eric Wong*, J. Zico Kolter, Mahyar Fazlyab  
@@ -222,6 +309,8 @@
     github: 
     external: true
 
+- year: 2021
+  papers: 
   - title: Leveraging Sparse Linear Layers for Debuggable Deep Networks
     link: https://arxiv.org/abs/2105.04857
     authors: Eric Wong*, Shibani Santurkar*, Aleksander Madry  
@@ -230,9 +319,7 @@
     blog: https://gradientscience.org/glm_saga/
     github: https://github.com/madrylab/debuggabledeepnetworks
     external: true
-
-- year: 2020
-  papers: 
+    
   - title: Learning perturbation sets for robust machine learning
     link: https://arxiv.org/abs/2007.08450
     authors: Eric Wong, J. Zico Kolter 
@@ -242,6 +329,8 @@
     github: https://github.com/locuslab/perturbation_learning/
     external: true
 
+- year: 2020
+  papers: 
   - title: Overfitting in adversarially robust deep learning 
     link: https://arxiv.org/abs/2002.11569
     authors: Leslie Rice*, Eric Wong*, J. Zico Kolter 
@@ -268,9 +357,7 @@
     blog: 
     github: 
     external: true
-
-- year: 2019
-  papers: 
+    
   - title: Adversarial robustness against the union of multiple perturbation models
     link: https://arxiv.org/abs/1909.04068
     authors: Pratyush Maini, Eric Wong, J. Zico Kolter  
@@ -280,6 +367,8 @@
     github: https://github.com/locuslab/robust_union/
     external: true
 
+- year: 2019
+  papers: 
   - title: Wasserstein adversarial examples
     link: https://arxiv.org/abs/1902.07906
     authors: Eric Wong, Frank R. Schmidt, J. Zico Kolter  
@@ -299,9 +388,7 @@
     blog: 
     github: https://github.com/locuslab/convex_adversarial/
     external: true
-
-- year: 2017
-  papers: 
+    
   - title: Provable defenses against adversarial examples via the convex outer adversarial polytope
     link: https://arxiv.org/abs/1711.00851
     authors: Eric Wong, J. Zico Kolter  
@@ -311,6 +398,8 @@
     github: https://github.com/locuslab/convex_adversarial/
     external: true
 
+- year: 2017
+  papers: 
   - title: A Semismooth Newton Method for Fast, Generic Convex Programming
     link: https://arxiv.org/abs/1705.00772
     authors: Alnur Ali*, Eric Wong*, J. Zico Kolter  
