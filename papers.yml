@@ -1,5 +1,25 @@
 - year: 2025
   papers: 
+  - title: 'Instruction Following by Boosting Attention of Large Language Models'
+    link: https://arxiv.org/abs/2506.13734
+    authors: Vitoria Guardieiro, Adam Stein, Avishree Khare, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'Benchmarking Misuse Mitigation Against Covert Adversaries'
+    link: https://arxiv.org/abs/2506.06414v1
+    authors: Davis Brown, Mahdi Sabbaghi, Luze Sun, Alexander Robey, George J. Pappas, Eric Wong, Hamed Hassani
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+
   - title: 'The FIX Benchmark: Extracting Features Interpretable to eXperts'
     link: https://arxiv.org/abs/2409.13684
     authors: Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A. Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong
@@ -28,8 +48,8 @@
     github: 
     external: false
 
-  - title: 'Adaptively evaluating models with task elicitation'
-    link: https://davisrbrown.com/assets/task_elicitation_initial.pdf
+  - title: 'Adaptively profiling models with task elicitation'
+    link: https://arxiv.org/abs/2503.01986
     authors: Davis Brown, Prithvi Balehannina, Helen Jin, Shreya Havaldar, Hamed Hassani, Eric Wong
     conference: 
     short: 
@@ -38,8 +58,8 @@
     github: 
     external: false
 
-  - title: 'Neuro-Symbolic Programming in the Age of Foundation Models: Pitfalls and Opportunities'
-    link: https://nvelingker.github.io/res/papers/neurosymbolic_pitfalls_and_opportunities.pdf
+  - title: 'The Road to Generalizable Neuro-Symbolic Learning Should be Paved with Foundation Models'
+    link: https://arxiv.org/abs/2505.24874
     authors: Adam Stein, Aaditya Naik, Neelay Velingker, Eric Wong
     conference: 
     short: 
