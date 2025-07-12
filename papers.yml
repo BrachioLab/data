@@ -6,8 +6,8 @@
     conference: 
     short: 
     website: 
-    blog: 
-    github: 
+    blog: https://debugml.github.io/instaboost/
+    github: https://github.com/BrachioLab/InstABoost
     external: false
 
   - title: 'Benchmarking Misuse Mitigation Against Covert Adversaries'
@@ -15,9 +15,19 @@
     authors: Davis Brown, Mahdi Sabbaghi, Luze Sun, Alexander Robey, George J. Pappas, Eric Wong, Hamed Hassani
     conference: 
     short: 
-    website: 
+    website: https://modelmisuse.com/
     blog: 
-    github: 
+    github: https://github.com/davisrbr/bsd-misuse
+    external: false
+
+  - title: 'Probabilistic Stability Guarantees for Feature Attributions'
+    link: https://arxiv.org/abs/2504.13787
+    authors: Helen Jin, Anton Xue, Weiqiu You, Surbhi Goel, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: https://debugml.github.io/soft-stability/
+    github: https://github.com/helenjin/soft_stability/
     external: false
 
   - title: 'The FIX Benchmark: Extracting Features Interpretable to eXperts'
