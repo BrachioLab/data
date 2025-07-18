@@ -1,5 +1,15 @@
 - year: 2025
   papers: 
+  - title: 'Probabilistic Soundness Guarantees in LLM Reasoning Chains'
+    link: https://arxiv.org/abs/2507.12948
+    authors: Weiqiu You, Anton Xue, Shreya Havaldar, Delip Rao, Helen Jin, Chris Callison-Burch, Eric Wong
+    conference: 
+    short: 
+    website: 
+    blog: 
+    github: 
+    external: false
+    
   - title: 'Instruction Following by Boosting Attention of Large Language Models'
     link: https://arxiv.org/abs/2506.13734
     authors: Vitoria Guardieiro, Adam Stein, Avishree Khare, Eric Wong
