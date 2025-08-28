@@ -3,12 +3,33 @@
   - title: 'Probabilistic Soundness Guarantees in LLM Reasoning Chains'
     link: https://arxiv.org/abs/2507.12948
     authors: Weiqiu You, Anton Xue, Shreya Havaldar, Delip Rao, Helen Jin, Chris Callison-Burch, Eric Wong
-    conference: 
-    short: 
+    conference: Empirical Methods in Natural Language Processing (EMNLP), 2025
+    short: EMNLP 2025
     website: 
     blog: 
     github: 
     external: false
+
+  - title: 'Adaptively profiling models with task elicitation'
+    link: https://arxiv.org/abs/2503.01986
+    authors: Davis Brown, Prithvi Balehannina, Helen Jin, Shreya Havaldar, Hamed Hassani, Eric Wong
+    conference: Empirical Methods in Natural Language Processing (EMNLP), 2025
+    short: EMNLP 2025
+    website: 
+    blog: 
+    github: 
+    external: false
+    
+  - title: 'Artifact or Flaw? Rethinking Prompt Sensitivity in Evaluating LLMs'
+    link: https://openreview.net/forum?id=frH3KtOZPC
+    authors: Andong Hua, Kenan Tang, Chenhe Gu, Jindong Gu, Eric Wong, Yao Qin
+    conference: Findings of Empirical Methods in Natural Language Processing (EMNLP), 2025
+    short: EMNLP Findings 2025
+    website: 
+    blog: 
+    github: 
+    external: true
+
     
   - title: 'Instruction Following by Boosting Attention of Large Language Models'
     link: https://arxiv.org/abs/2506.13734
@@ -48,6 +69,15 @@
     website: https://brachiolab.github.io/fix/
     blog: https://debugml.github.io/fix/
     github: https://github.com/BrachioLab/exlib/tree/main/fix
+    external: false
+
+  - title: 'Towards Style Alignment in Cross-Cultural Translation'
+    link: https://arxiv.org/abs/2507.00216
+    authors: Shreya Havaldar, Adam Stein, Eric Wong, Lyle Ungar
+    conference: Association for Computational Linguistics (ACL), 2025
+    short: ACL 2025
+    blog: 
+    github: 
     external: false
 
   - title: 'Sum-of-Parts Models: Faithful Attributions for Groups of Features'

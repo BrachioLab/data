@@ -26,6 +26,7 @@
   coadvisor: Rajeev Alur
   coadvisor_url: https://www.cis.upenn.edu/~alur/
   role: "PhD Student"
+  next: "Postdoc at UT Austin"
 - first_name: Chaehyeon
   last_name: Kim
   url: https://chaehyeon.kim/
@@ -65,6 +66,13 @@
   last_name: Guardieiro
   url: https://viguardieiro.github.io/
   photo: /assets/img/portrait/vitoria.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- first_name: Steffi
+  last_name: Chern
+  url: https://steffichern.github.io/
+  photo: /assets/img/portrait/steffi.jpeg
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
