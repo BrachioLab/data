@@ -98,16 +98,6 @@
     github: 
     external: false
 
-  - title: 'Adaptively profiling models with task elicitation'
-    link: https://arxiv.org/abs/2503.01986
-    authors: Davis Brown, Prithvi Balehannina, Helen Jin, Shreya Havaldar, Hamed Hassani, Eric Wong
-    conference: 
-    short: 
-    website: 
-    blog: 
-    github: 
-    external: false
-
   - title: 'The Road to Generalizable Neuro-Symbolic Learning Should be Paved with Foundation Models'
     link: https://arxiv.org/abs/2505.24874
     authors: Adam Stein, Aaditya Naik, Neelay Velingker, Eric Wong
