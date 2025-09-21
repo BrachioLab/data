@@ -1,5 +1,35 @@
 - year: 2025
   papers: 
+  - title: 'Probabilistic Stability Guarantees for Feature Attributions'
+    link: https://arxiv.org/abs/2504.13787
+    authors: Helen Jin, Anton Xue, Weiqiu You, Surbhi Goel, Eric Wong
+    conference: Neural Information Processing Systems (NeurIPS), 2025
+    short: NeurIPS 2025
+    website: 
+    blog: https://debugml.github.io/soft-stability/
+    github: https://github.com/helenjin/soft_stability/
+    external: false
+
+  - title: 'CTSketch: Compositional Tensor Sketching for Scalable Neurosymbolic Learning'
+    link: https://arxiv.org/abs/2503.24123
+    authors: Seewon Choi, Alaia Solko-Breslin, Rajeev Alur, Eric Wong
+    conference: Neural Information Processing Systems (NeurIPS), 2025
+    short: NeurIPS 2025
+    website: 
+    blog: 
+    github: 
+    external: false
+
+  - title: 'Once Upon an Input: Reasoning via Per-Instance Program Synthesis'
+    link: https://neurips.cc/virtual/2025/poster/117467
+    authors: Adam Stein, Neelay Velingker, Mayur Naik, Eric Wong
+    conference: Neural Information Processing Systems (NeurIPS), 2025
+    short: NeurIPS 2025
+    website: 
+    blog: 
+    github: 
+    external: false
+
   - title: 'Probabilistic Soundness Guarantees in LLM Reasoning Chains'
     link: https://arxiv.org/abs/2507.12948
     authors: Weiqiu You, Anton Xue, Shreya Havaldar, Delip Rao, Helen Jin, Chris Callison-Burch, Eric Wong
@@ -49,16 +79,6 @@
     website: https://modelmisuse.com/
     blog: 
     github: https://github.com/davisrbr/bsd-misuse
-    external: false
-
-  - title: 'Probabilistic Stability Guarantees for Feature Attributions'
-    link: https://arxiv.org/abs/2504.13787
-    authors: Helen Jin, Anton Xue, Weiqiu You, Surbhi Goel, Eric Wong
-    conference: 
-    short: 
-    website: 
-    blog: https://debugml.github.io/soft-stability/
-    github: https://github.com/helenjin/soft_stability/
     external: false
 
   - title: 'The FIX Benchmark: Extracting Features Interpretable to eXperts'
