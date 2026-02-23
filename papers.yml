@@ -1,6 +1,6 @@
 - year: 2025
   papers:
-  - title: T-FIX: Text-Based Explanations with Features Interpretable to eXperts
+  - title: 'T-FIX: Text-Based Explanations with Features Interpretable to eXperts'
     link: https://arxiv.org/abs/2511.04070
     authors: Shreya Havaldar, Helen Jin, Chaehyeon Kim, Anton Xue, Weiqiu You, Marco Gatti, Bhuvnesh Jain, Helen Qu, Daniel A Hashimoto, Amin Madani, Rajat Deo, Sameed Ahmed M. Khatana, Gary E. Weissman, Lyle Ungar, Eric Wong
     conference: null
@@ -180,7 +180,7 @@
     subtheme: neurosymbolic
     abstract: |-
       Neuro-symbolic learning was proposed to address challenges with training neural networks for complex reasoning tasks with the added benefits of interpretability, reliability, and efficiency. Neuro-symbolic learning methods traditionally train neural models in conjunction with symbolic programs, but they face significant challenges that limit them to simplistic problems. On the other hand, purely-neural foundation models now reach state-of-the-art performance through prompting rather than training, but they are often unreliable and lack interpretability. Supplementing foundation models with symbolic programs, which we call neuro-symbolic prompting, provides a way to use these models for complex reasoning tasks. Doing so raises the question: What role does specialized model training as part of neuro-symbolic learning have in the age of foundation models? To explore this question, we highlight three pitfalls of traditional neuro-symbolic learning with respect to the compute, data, and programs leading to generalization problems. This position paper argues that foundation models enable generalizable neuro-symbolic solutions, offering a path towards achieving the original goals of neuro-symbolic learning without the downsides of training from scratch.
-  - title: NSF-SciFy: Mining the NSF Awards Database for Scientific Claims
+  - title: 'NSF-SciFy: Mining the NSF Awards Database for Scientific Claims'
     link: https://arxiv.org/abs/2503.08600
     authors: Delip Rao, Weiqiu You, Eric Wong, Chris Callison-Burch
     conference: null
