@@ -1,3 +1,18 @@
+- year: 2026
+  papers:
+  - title: 'Missingness Bias Calibration in Feature Attribution Explanations'
+    link: 
+    authors: Shailesh Sridhar, Anton Xue, Eric Wong
+    conference: International Conference on Learning Representations (ICLR), 2026
+    short: ICLR 2026
+    website: null
+    blog: null
+    github: null
+    external: false
+    themes: [interpretability]
+    subtheme: debugging
+    abstract: |-
+      Popular explanation methods often produce unreliable feature importance scores due to "missingness bias", a systematic distortion that arises when models are probed with ablated, out-of-distribution inputs. Existing solutions treat this as a deep representational flaw that requires expensive retraining or architectural modifications. In this work, we challenge this assumption and show that missingness bias can be effectively treated as a superficial artifact of the model's output space. We introduce MCal, a lightweight post-hoc method that corrects this bias by fine-tuning a simple linear head on the outputs of a frozen base model. Surprisingly, we find this simple correction consistently reduces missingness bias and is competitive with, or even outperforms, prior heavyweight approaches across diverse medical benchmarks spanning vision, language, and tabular domains.
 - year: 2025
   papers:
   - title: 'T-FIX: Text-Based Explanations with Features Interpretable to eXperts'
