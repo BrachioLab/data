@@ -125,8 +125,8 @@
     conference: Neural Information Processing Systems (NeurIPS), 2025
     short: NeurIPS 2025
     website: null
-    blog: null
-    github: null
+    blog: https://debugml.github.io/ctsketch/
+    github: https://github.com/alaiasolkobreslin/CTSketch
     external: false
     themes: [formal-assurances]
     subtheme: neurosymbolic
