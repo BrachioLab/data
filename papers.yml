@@ -1,7 +1,20 @@
 - year: 2026
   papers:
+  - title: 'Detecting Safety Violations Across Many Agent Traces'
+    link: https://arxiv.org/abs/2604.11806
+    authors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong
+    conference: null
+    short: Preprint
+    website: null
+    blog: https://debugml.github.io/cheating-agents/
+    github: https://github.com/BrachioLab/Meerkat
+    external: false
+    themes: [adversarial-safety]
+    subtheme: alignment-control
+    abstract: |-
+      To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across traces, naive agentic auditing does not scale to large trace collections, and fixed monitors are brittle to unanticipated behaviors. We introduce Meerkat, which combines clustering with agentic search to uncover violations specified in natural language. Through structured search and adaptive investigation of promising regions, Meerkat finds sparse failures without relying on seed scenarios, fixed workflows, or exhaustive enumeration. Across misuse, misalignment, and task gaming settings, Meerkat significantly improves detection of safety violations over baseline monitors, discovers widespread developer cheating on a top agent benchmark, and finds nearly 4x more examples of reward hacking on CyBench than previous audits.
   - title: 'Missingness Bias Calibration in Feature Attribution Explanations'
-    link: 
+    link: https://arxiv.org/abs/2603.04831
     authors: Shailesh Sridhar, Anton Xue, Eric Wong
     conference: International Conference on Learning Representations (ICLR), 2026
     short: ICLR 2026
@@ -13,8 +26,73 @@
     subtheme: debugging
     abstract: |-
       Popular explanation methods often produce unreliable feature importance scores due to "missingness bias", a systematic distortion that arises when models are probed with ablated, out-of-distribution inputs. Existing solutions treat this as a deep representational flaw that requires expensive retraining or architectural modifications. In this work, we challenge this assumption and show that missingness bias can be effectively treated as a superficial artifact of the model's output space. We introduce MCal, a lightweight post-hoc method that corrects this bias by fine-tuning a simple linear head on the outputs of a frozen base model. Surprisingly, we find this simple correction consistently reduces missingness bias and is competitive with, or even outperforms, prior heavyweight approaches across diverse medical benchmarks spanning vision, language, and tabular domains.
+  - title: 'Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents'
+    link: https://arxiv.org/abs/2604.03173
+    authors: Delip Rao, Eric Wong, Chris Callison-Burch
+    conference: null
+    short: Preprint
+    website: null
+    blog: null
+    github: null
+    external: false
+    themes: [adversarial-safety]
+    subtheme: alignment-control
+    abstract: |-
+      Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\% (Business) to 11.4\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-source tool for URL liveness checking and stale-vs-hallucinated classification using the Wayback Machine. In agentic self-correction experiments, models equipped with urlhealth reduce non-resolving citation URLs by  to under 1\%, though effectiveness depends on the model's tool-use competence. The tool and all data are publicly available. Our characterization findings, failure taxonomy, and open-source tooling establish that citation URL validity is both measurable at scale and correctable in practice.
+  - title: 'Interpretability Can Be Actionable'
+    link: https://actionable-interpretability-guide.github.io/paper.pdf
+    authors: Hadas Orgad, Fazl Barez, Tal Haklay, Isabelle Lee, Marius Mosbach, Anja Reusch, Naomi Saphra, Byron C Wallace, Sarah Wiegreffe, Eric Wong, Ian Tenney, Mor Geva 
+    conference: null
+    short: Preprint
+    website: null
+    blog: null
+    github: null
+    external: true
+    themes: [interpretability]
+    subtheme: debugging
+    abstract: |-
+      Interpretability aims to explain the behavior of deep neural networks. Despite rapid growth, there is mounting concern that much of this work has not translated into practical impact, raising questions about its relevance and utility. This position paper argues that the central missing ingredient is not new methods, but evaluation criteria: interpretability should be evaluated by actionability—the extent to which insights enable concrete decisions and interventions beyond interpretability research itself. We define actionable interpretability along two dimensions—concreteness and validation—and analyze the barriers currently preventing real-world impact. To address these barriers, we identify five domains where interpretability offers unique leverage and present a framework for actionable interpretability with evaluation criteria aligned with practical outcomes. Our goal is not to downplay exploratory research, but to establish actionability as a core objective of interpretability research.
+  - title: 'CAMEL: An ECG Language Model for Forecasting Cardiac Events'
+    link: https://arxiv.org/abs/2602.15677
+    authors: Neelay Velingker, Alaia Solko-Breslin, Mayank Keoliya, Seewon Choi, Jiayi Xin, Anika Marathe, Alireza Oraii, Rajat Deo, Sameed Khatana, Rajeev Alur, Mayur Naik, Eric Wong
+    conference: International Conference on Learning Representations (ICLR), 2026
+    short: Preprint
+    website: null
+    blog: null
+    github: null
+    external: false
+    themes: [interpretability]
+    subtheme: scientific-healthcare
+    abstract: |-
+      Electrocardiograms (ECG) are electrical recordings of the heart that are critical for diagnosing cardiovascular conditions. ECG language models (ELMs) have recently emerged as a promising framework for ECG classification accompanied by report generation. However, current models cannot forecast future cardiac events despite the immense clinical value for planning earlier intervention. To address this gap, we propose CAMEL, the first ELM that is capable of inference over longer signal durations which enables its forecasting capability. Our key insight is a specialized ECG encoder which enables cross-understanding of ECG signals with text. We train CAMEL using established LLM training procedures, combining LoRA adaptation with a curriculum learning pipeline. Our curriculum includes ECG classification, metrics calculations, and multi-turn conversations to elicit reasoning. CAMEL demonstrates strong zero-shot performance across 6 tasks and 9 datasets, including ECGForecastBench, a new benchmark that we introduce for forecasting arrhythmias. CAMEL is on par with or surpasses ELMs and fully supervised baselines both in- and out-of-distribution, achieving SOTA results on ECGBench (+7.0% absolute average gain) as well as ECGForecastBench (+12.4% over fully supervised models and +21.1% over zero-shot ELMs).
+  - title: 'Semantics-Preserving Evasion of LLM Vulnerability Detectors'
+    link: https://arxiv.org/abs/2602.00305
+    authors: Luze Sun, Alina Oprea, Eric Wong
+    conference: null
+    short: Preprint
+    website: null
+    blog: null
+    github: null
+    external: false
+    themes: [adversarial-safety]
+    subtheme: jailbreaking
+    abstract: |-
+      LLM-based vulnerability detectors are increasingly deployed in security-critical code review, yet their resilience to evasion under behavior-preserving edits remains poorly understood. We evaluate detection-time integrity under a semantics-preserving threat model by instantiating diverse behavior-preserving code transformations on a unified C/C++ benchmark (N=5000), and introduce a metric of joint robustness across different attack methods/carriers. Across models, we observe a systemic failure of semantic invariant adversarial transformations: even state-of-the-art vulnerability detectors perform well on clean inputs while predictions flip under behavior-equivalent edits. Universal adversarial strings optimized on a single surrogate model remain effective when transferred to black-box APIs, and gradient access can further amplify evasion success. These results show that even high-performing detectors are vulnerable to low-cost, semantics-preserving evasion. Our carrier-based metrics provide practical diagnostics for evaluating LLM-based code detectors.
 - year: 2025
   papers:
+  - title: 'SuperActivators: Only the Tail of the Distribution Contains Reliable Concept Signals'
+    link: https://arxiv.org/abs/2512.05038
+    authors: Cassandra Goldberg, Chaehyeon Kim, Adam Stein, Eric Wong
+    conference: Mechanistic Interpretability Workshop at NeurIPS 2025
+    short: MechInterpWorkshop @ NeurIPS 2025
+    website: null
+    blog: null
+    github: null
+    external: false
+    themes: [interpretability]
+    subtheme: concepts-structure
+    abstract: |-
+      Concept vectors aim to enhance model interpretability by linking internal representations with human-understandable semantics, but their utility is often limited by noisy and inconsistent activations. In this work, we uncover a clear pattern within the noise, which we term the SuperActivator Mechanism: while in-concept and out-of-concept activations overlap considerably, the token activations in the extreme high tail of the in-concept distribution provide a reliable signal of concept presence. We demonstrate the generality of this mechanism by showing that SuperActivator tokens consistently outperform standard vector-based and prompting concept detection approaches, achieving up to a 14% higher F1 score across image and text modalities, model architectures, model layers, and concept extraction techniques. Finally, we leverage SuperActivator tokens to improve feature attributions for concepts.
   - title: 'T-FIX: Text-Based Explanations with Features Interpretable to eXperts'
     link: https://arxiv.org/abs/2511.04070
     authors: Shreya Havaldar, Helen Jin, Chaehyeon Kim, Anton Xue, Weiqiu You, Marco Gatti, Bhuvnesh Jain, Helen Qu, Daniel A Hashimoto, Amin Madani, Rajat Deo, Sameed Ahmed M. Khatana, Gary E. Weissman, Lyle Ungar, Eric Wong
