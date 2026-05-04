@@ -1,5 +1,18 @@
 - year: 2026
   papers:
+  - title: 'Interpretability Can Be Actionable'
+    link: https://actionable-interpretability-guide.github.io/paper.pdf
+    authors: Hadas Orgad, Fazl Barez, Tal Haklay, Isabelle Lee, Marius Mosbach, Anja Reusch, Naomi Saphra, Byron C Wallace, Sarah Wiegreffe, Eric Wong, Ian Tenney, Mor Geva 
+    conference: International Conference on Machine learning (ICML), 2026
+    short: ICML 2026
+    website: https://actionable-interpretability-guide.github.io/
+    blog: https://actionable-interpretability-guide.github.io/
+    github: null
+    external: true
+    themes: [interpretability]
+    subtheme: debugging
+    abstract: |-
+      Interpretability aims to explain the behavior of deep neural networks. Despite rapid growth, there is mounting concern that much of this work has not translated into practical impact, raising questions about its relevance and utility. This position paper argues that the central missing ingredient is not new methods, but evaluation criteria: interpretability should be evaluated by actionability—the extent to which insights enable concrete decisions and interventions beyond interpretability research itself. We define actionable interpretability along two dimensions—concreteness and validation—and analyze the barriers currently preventing real-world impact. To address these barriers, we identify five domains where interpretability offers unique leverage and present a framework for actionable interpretability with evaluation criteria aligned with practical outcomes. Our goal is not to downplay exploratory research, but to establish actionability as a core objective of interpretability research.
   - title: 'Detecting Safety Violations Across Many Agent Traces'
     link: https://arxiv.org/abs/2604.11806
     authors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong
@@ -39,19 +52,6 @@
     subtheme: alignment-control
     abstract: |-
       Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\% (Business) to 11.4\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-source tool for URL liveness checking and stale-vs-hallucinated classification using the Wayback Machine. In agentic self-correction experiments, models equipped with urlhealth reduce non-resolving citation URLs by  to under 1\%, though effectiveness depends on the model's tool-use competence. The tool and all data are publicly available. Our characterization findings, failure taxonomy, and open-source tooling establish that citation URL validity is both measurable at scale and correctable in practice.
-  - title: 'Interpretability Can Be Actionable'
-    link: https://actionable-interpretability-guide.github.io/paper.pdf
-    authors: Hadas Orgad, Fazl Barez, Tal Haklay, Isabelle Lee, Marius Mosbach, Anja Reusch, Naomi Saphra, Byron C Wallace, Sarah Wiegreffe, Eric Wong, Ian Tenney, Mor Geva 
-    conference: null
-    short: Preprint
-    website: null
-    blog: null
-    github: null
-    external: true
-    themes: [interpretability]
-    subtheme: debugging
-    abstract: |-
-      Interpretability aims to explain the behavior of deep neural networks. Despite rapid growth, there is mounting concern that much of this work has not translated into practical impact, raising questions about its relevance and utility. This position paper argues that the central missing ingredient is not new methods, but evaluation criteria: interpretability should be evaluated by actionability—the extent to which insights enable concrete decisions and interventions beyond interpretability research itself. We define actionable interpretability along two dimensions—concreteness and validation—and analyze the barriers currently preventing real-world impact. To address these barriers, we identify five domains where interpretability offers unique leverage and present a framework for actionable interpretability with evaluation criteria aligned with practical outcomes. Our goal is not to downplay exploratory research, but to establish actionability as a core objective of interpretability research.
   - title: 'CAMEL: An ECG Language Model for Forecasting Cardiac Events'
     link: https://arxiv.org/abs/2602.15677
     authors: Neelay Velingker, Alaia Solko-Breslin, Mayank Keoliya, Seewon Choi, Jiayi Xin, Anika Marathe, Alireza Oraii, Rajat Deo, Sameed Khatana, Rajeev Alur, Mayur Naik, Eric Wong
