@@ -1,5 +1,18 @@
 - year: 2026
   papers:
+  - title: 'Detecting Safety Violations Across Many Agent Traces'
+    link: https://arxiv.org/abs/2604.11806
+    authors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong
+    conference: Conference on Language Modeling (COLM), 2026
+    short: COLM 2026
+    website: null
+    blog: https://debugml.github.io/cheating-agents/
+    github: https://github.com/BrachioLab/Meerkat
+    external: false
+    themes: [adversarial-safety]
+    subtheme: alignment-control
+    abstract: |-
+      To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across traces, naive agentic auditing does not scale to large trace collections, and fixed monitors are brittle to unanticipated behaviors. We introduce Meerkat, which combines clustering with agentic search to uncover violations specified in natural language. Through structured search and adaptive investigation of promising regions, Meerkat finds sparse failures without relying on seed scenarios, fixed workflows, or exhaustive enumeration. Across misuse, misalignment, and task gaming settings, Meerkat significantly improves detection of safety violations over baseline monitors, discovers widespread developer cheating on a top agent benchmark, and finds nearly 4x more examples of reward hacking on CyBench than previous audits.
   - title: 'Stateful Online Monitoring Catches Distributed Agent Attacks'
     link: https://arxiv.org/abs/2605.31593
     authors: Davis Brown, Samarth Bhargav, Arav Santhanam, Kasper Hong, Ivan Zhang, Matan Shtepel, Steffi Chern, Alexander Robey, Eric Wong, Hamed Hassani
@@ -39,19 +52,6 @@
     subtheme: debugging
     abstract: |-
       Interpretability aims to explain the behavior of deep neural networks. Despite rapid growth, there is mounting concern that much of this work has not translated into practical impact, raising questions about its relevance and utility. This position paper argues that the central missing ingredient is not new methods, but evaluation criteria: interpretability should be evaluated by actionability—the extent to which insights enable concrete decisions and interventions beyond interpretability research itself. We define actionable interpretability along two dimensions—concreteness and validation—and analyze the barriers currently preventing real-world impact. To address these barriers, we identify five domains where interpretability offers unique leverage and present a framework for actionable interpretability with evaluation criteria aligned with practical outcomes. Our goal is not to downplay exploratory research, but to establish actionability as a core objective of interpretability research.
-  - title: 'Detecting Safety Violations Across Many Agent Traces'
-    link: https://arxiv.org/abs/2604.11806
-    authors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong
-    conference: null
-    short: Preprint
-    website: null
-    blog: https://debugml.github.io/cheating-agents/
-    github: https://github.com/BrachioLab/Meerkat
-    external: false
-    themes: [adversarial-safety]
-    subtheme: alignment-control
-    abstract: |-
-      To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across traces, naive agentic auditing does not scale to large trace collections, and fixed monitors are brittle to unanticipated behaviors. We introduce Meerkat, which combines clustering with agentic search to uncover violations specified in natural language. Through structured search and adaptive investigation of promising regions, Meerkat finds sparse failures without relying on seed scenarios, fixed workflows, or exhaustive enumeration. Across misuse, misalignment, and task gaming settings, Meerkat significantly improves detection of safety violations over baseline monitors, discovers widespread developer cheating on a top agent benchmark, and finds nearly 4x more examples of reward hacking on CyBench than previous audits.
   - title: 'Missingness Bias Calibration in Feature Attribution Explanations'
     link: https://arxiv.org/abs/2603.04831
     authors: Shailesh Sridhar, Anton Xue, Eric Wong
