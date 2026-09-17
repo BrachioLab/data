@@ -12,6 +12,7 @@
   coadvisor: Lyle Ungar
   coadvisor_url: https://www.cis.upenn.edu/~ungar/
   role: "PhD Student"
+  next: "Bloomberg"
 - first_name: Weiqiu
   last_name: You
   url: https://fallcat.github.io/
@@ -19,6 +20,7 @@
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
+  next: "Meta"
 - first_name: Anton
   last_name: Xue
   url: https://antonxue.github.io/
@@ -41,6 +43,7 @@
   coadvisor: Mayur Naik
   coadvisor_url: https://www.cis.upenn.edu/~mhnaik/
   role: "PhD Student"
+  next: "Reflection AI"
 - first_name: Helen
   last_name: Jin
   url: https://helenjin.github.io/
@@ -73,6 +76,27 @@
   last_name: Chern
   url: https://steffichern.github.io/
   photo: /assets/img/portrait/steffi.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- first_name: Elizabeth
+  last_name: Schaefer
+  url: https://eschaefer1717.github.io/eschaefer/
+  photo: /assets/img/portrait/elizabeth.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- first_name: Keenan
+  last_name: Samway
+  url: https://www.keenansamway.com/
+  photo: /assets/img/portrait/keenan.jpeg
+  coadvisor: 
+  coadvisor_url: 
+  role: "PhD Student"
+- first_name: Nobline
+  last_name: Yoo
+  url: 
+  photo: /assets/img/portrait/placeholder.jpeg
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
