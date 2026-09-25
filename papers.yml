@@ -1,5 +1,31 @@
 - year: 2026
   papers:
+  - title: 'SuperActivators: Only the Tail of the Distribution Contains Reliable Concept Signals'
+    link: https://arxiv.org/abs/2512.05038
+    authors: Cassandra Goldberg, Chaehyeon Kim, Adam Stein, Eric Wong
+    conference: Neural Information Processing Systems (NeurIPS), 2025
+    short: NeurIPS 2026
+    website: null
+    blog: https://debugml.github.io/superactivators/
+    github: https://github.com/BrachioLab/SuperActivators
+    external: false
+    themes: [interpretability]
+    subtheme: concepts-structure
+    abstract: |-
+      Concept vectors aim to enhance model interpretability by linking internal representations with human-understandable semantics, but their utility is often limited by noisy and inconsistent activations. In this work, we uncover a clear pattern within the noise, which we term the SuperActivator Mechanism: while in-concept and out-of-concept activations overlap considerably, the token activations in the extreme high tail of the in-concept distribution provide a reliable signal of concept presence. We demonstrate the generality of this mechanism by showing that SuperActivator tokens consistently outperform standard vector-based and prompting concept detection approaches, achieving up to a 14% higher F1 score across image and text modalities, model architectures, model layers, and concept extraction techniques. Finally, we leverage SuperActivator tokens to improve feature attributions for concepts.
+  - title: 'Position-aware eXplanation: A Model-Agnostic Framework for Positional Attributions'
+    link: 
+    authors: Chaehyeon Kim, Gary E. Weissman, Eric Wong 
+    conference: Neural Information Processing Systems (NeurIPS), 2026
+    short: NeurIPS 2026
+    website: null
+    blog: 
+    github: 
+    external: false
+    themes: [interpretability]
+    subtheme: debugging
+    abstract: |-
+      Transformer predictions depend on positional embeddings, which are known to produce biases such as first- and last-token dominance. However, feature attribution methods implicitly entangle influence from positions with features into a single opaque importance score per feature. To uncover these positional effects, we propose Position-aware eXplanation (PaX), a model-agnostic framework that transforms standard attribution methods to jointly produce feature and position attributions. PaX additionally produces counterfactual positional explanations: actionable scores quantifying how the prediction changes when a feature is relocated. We use PaX to generalize perturbation-, gradient-, and boundary-based attribution methods across vision, language, and clinical time-series benchmarks with no architectural changes. We demonstrate that separating positional effects improves both feature and position attribution faithfulness by 17.5% / 55% and 16.8% / 43%, respectively (insertion / deletion). In a case study on sepsis forecasting, we find that PaX recovers clinically validated bedside signals that standard attributions miss.
   - title: 'Detecting Safety Violations Across Many Agent Traces'
     link: https://arxiv.org/abs/2604.11806
     authors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong
@@ -119,19 +145,6 @@
       LLM-based vulnerability detectors are increasingly deployed in security-critical code review, yet their resilience to evasion under behavior-preserving edits remains poorly understood. We evaluate detection-time integrity under a semantics-preserving threat model by instantiating diverse behavior-preserving code transformations on a unified C/C++ benchmark (N=5000), and introduce a metric of joint robustness across different attack methods/carriers. Across models, we observe a systemic failure of semantic invariant adversarial transformations: even state-of-the-art vulnerability detectors perform well on clean inputs while predictions flip under behavior-equivalent edits. Universal adversarial strings optimized on a single surrogate model remain effective when transferred to black-box APIs, and gradient access can further amplify evasion success. These results show that even high-performing detectors are vulnerable to low-cost, semantics-preserving evasion. Our carrier-based metrics provide practical diagnostics for evaluating LLM-based code detectors.
 - year: 2025
   papers:
-  - title: 'SuperActivators: Only the Tail of the Distribution Contains Reliable Concept Signals'
-    link: https://arxiv.org/abs/2512.05038
-    authors: Cassandra Goldberg, Chaehyeon Kim, Adam Stein, Eric Wong
-    conference: Mechanistic Interpretability Workshop at NeurIPS 2025
-    short: MechInterp Workshop @ NeurIPS 2025
-    website: null
-    blog: null
-    github: null
-    external: false
-    themes: [interpretability]
-    subtheme: concepts-structure
-    abstract: |-
-      Concept vectors aim to enhance model interpretability by linking internal representations with human-understandable semantics, but their utility is often limited by noisy and inconsistent activations. In this work, we uncover a clear pattern within the noise, which we term the SuperActivator Mechanism: while in-concept and out-of-concept activations overlap considerably, the token activations in the extreme high tail of the in-concept distribution provide a reliable signal of concept presence. We demonstrate the generality of this mechanism by showing that SuperActivator tokens consistently outperform standard vector-based and prompting concept detection approaches, achieving up to a 14% higher F1 score across image and text modalities, model architectures, model layers, and concept extraction techniques. Finally, we leverage SuperActivator tokens to improve feature attributions for concepts.
   - title: 'T-FIX: Text-Based Explanations with Features Interpretable to eXperts'
     link: https://arxiv.org/abs/2511.04070
     authors: Shreya Havaldar, Helen Jin, Chaehyeon Kim, Anton Xue, Weiqiu You, Marco Gatti, Bhuvnesh Jain, Helen Qu, Daniel A Hashimoto, Amin Madani, Rajat Deo, Sameed Ahmed M. Khatana, Gary E. Weissman, Lyle Ungar, Eric Wong
