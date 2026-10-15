@@ -100,3 +100,10 @@
   coadvisor: 
   coadvisor_url: 
   role: "PhD Student"
+- first_name: Liao
+  last_name: Guiqiu
+  url: https://liaoguiqiu.github.io/
+  photo: /assets/img/portrait/guiqiu.png
+  coadvisor: Daniel A. Hashimoto
+  coadvisor_url: https://x.com/Laparoscopes
+  role: "Postdoc"
